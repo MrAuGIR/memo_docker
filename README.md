@@ -25,7 +25,7 @@
 2. ###### Démarrer un conteneur
 `` docker run [nom de l'images] ``
 
-__ exemple : démarrer un conteneur qui contient un serveur nginx__
+__exemple : démarrer un conteneur qui contient un serveur nginx__
 `` docker run -d -p 8080:80 nginx ``
 * Options
     * -p : detacher conteneur du processus principal
