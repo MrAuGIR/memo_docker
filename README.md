@@ -49,5 +49,5 @@ __exemple :__
 * . : pour aller chercher notre DockerFile à la racine de notre projet
 
 6. ###### envoyer son image perso sur le docker hub
-`` docker tag image-name:latest YOUR_USERNAME/image-name:latest ``
-`` docker push [username]/[image name]:latest ``
+*`` docker tag image-name:latest YOUR_USERNAME/image-name:latest ``
+*`` docker push [username]/[image name]:latest ``
