@@ -70,7 +70,7 @@ volumes:
 2. creation d'un projet symfony dans le conteneur
 `` docker exec www_docker_symfony composer create-project symfony/website-skeleton projectDockerSymfony ``
 
-## liens a tester après le decker-compose up
+## liens a tester après le docker-compose up
 * maildev
 http://127.0.0.1:8081/#/
 
