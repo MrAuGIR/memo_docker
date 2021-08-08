@@ -47,3 +47,7 @@ __exemple :__
 `` docker build -t mon-image-perso ``
 * -t : pour donner un nom à notre image
 * . : pour aller chercher notre DockerFile à la racine de notre projet
+
+6. ###### envoyer son image perso sur le docker hub
+`` docker tag image-name:latest YOUR_USERNAME/image-name:latest ``
+`` docker push [username]/[image name]:latest ``
