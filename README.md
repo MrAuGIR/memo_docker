@@ -44,7 +44,7 @@ __exemple : démarrer un conteneur qui contient un serveur nginx__
 `` docker build ``
 
 __exemple :__
-`` docker build -t mon-image-perso ``
+`` docker build -t mon-image-perso . ``
 * -t : pour donner un nom à notre image
 * . : pour aller chercher notre DockerFile à la racine de notre projet
 
